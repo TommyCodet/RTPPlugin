@@ -33,12 +33,7 @@ public class RTPCommand implements CommandExecutor {
 
         int y = world.getHighestBlockYAt(x, z);
 
-        Location target = new Location(
-                world,
-                x + 0.5,
-                y + 1,
-                z + 0.5
-        );
+        Location target = new Location(world, x + 0.5, y + 1, z + 0.5);
 
         player.teleport(target);
         player.sendMessage("§aDu wurdest zufällig teleportiert!");
