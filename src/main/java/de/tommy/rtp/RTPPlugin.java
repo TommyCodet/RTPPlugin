@@ -7,11 +7,11 @@ public class RTPPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("rtp").setExecutor(new RTPCommand());
-        getLogger().info("RTP Plugin aktiviert!");
+        getLogger().info("SiuuuRTP Plugin aktiviert!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("RTP Plugin deaktiviert!");
+        getLogger().info("SiuuuRTP Plugin deaktiviert!");
     }
 }
