@@ -20,7 +20,7 @@ public class RTPCommand implements CommandExecutor {
                              String[] args) {
 
         if (!(sender instanceof Player)) {
-            sender.sendMessage("Nur Spieler können diesen Befehl nutzen.");
+            sender.sendMessage("Nur Spieler können diesen Befehl nutzen!");
             return true;
         }
 
